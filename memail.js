@@ -1,10 +1,8 @@
 "use strict";
 
-module.exports = MemalService;
+var exports = module.exports = {};
 
-function MemalService() {
-    this.send = function(options) 
-    {
-        return "Hello World. This is my first node module.";
-    }
+exports.send = function() 
+{
+    return "Hello world. This is my first node module";
 }

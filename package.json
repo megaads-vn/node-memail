@@ -1,6 +1,6 @@
 {
   "name": "memail",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This module allow send email to one or group person ",
   "main": "memail.js",
   "scripts": {
