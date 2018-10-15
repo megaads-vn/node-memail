@@ -1,11 +1,10 @@
  # Node Memail
- =========================
  
  ### Install and Configuration
  
  To install this module, using command:
   
- ``` npm i --save memail ```
+ ``` npm install memail --save```
  
  After install completely, add file config in folder ``config`` of
  root app directory name `` mail.json `` with content below:
