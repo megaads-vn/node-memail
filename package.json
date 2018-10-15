@@ -1,6 +1,6 @@
 {
   "name": "memail",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This module allow send email to one or group person ",
   "main": "memail.js",
   "scripts": {
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/megaads-vn/node-memail/issues"
   },
-  "homepage": "https://github.com/megaads-vn/node-memail#readme"
+  "homepage": "https://github.com/megaads-vn/node-memail#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "ejs": "^2.6.1",
+    "email-templates": "^5.0.1",
+    "nodemailer": "^4.6.8"
+  }
 }
